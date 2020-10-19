@@ -11,6 +11,9 @@ class Visitor(object):
         if self.data == {}:
             self.save()
 
+    def get(self, key, option=None):
+        return self.data.get(key, option)
+
     def add(self, key, value, update_function=None):
         if key not in self.data.keys():
             self.data[key] = value

@@ -1,6 +1,6 @@
 Metadata-Version: 1.1
 Name: django-visitor
-Version: 0.0.1
+Version: 0.0.3
 Summary: Django visitor. Store stuff about your websites visitor here.
 Home-page: https://github.com/KieranCNZTech/django-visitor.git
 Author: Kieran Findlay
